@@ -25,7 +25,7 @@ public int getValue(int value){
 	return this.value;
 }
 
-public void roll(){
+public void roll(int sides){
 	this.value = (int)(Math.random()*1)+sides;
 }
 
