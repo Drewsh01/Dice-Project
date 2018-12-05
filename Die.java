@@ -21,11 +21,12 @@ public int getSides(int sides){
 	return this.sides;
 }
 
-public int getValue(int value){
+public int getValue(int sides){
+	this.value = (int)(Math.random()*1)+sides;
 	return this.value;
 }
 
-public void roll(int sides){
+public void roll(){
 	this.value = (int)(Math.random()*1)+sides;
 }
 
