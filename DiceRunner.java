@@ -3,7 +3,7 @@ public class DiceRunner{
 
 Die first = new Die();
 
-System.out.println(first.roll(8));
+System.out.println(first.getValue(8));
 
 }
 }
