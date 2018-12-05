@@ -21,17 +21,18 @@ public int getSides(int sides){
 	return this.sides;
 }
 
-public int getValue(int sides){
-	this.value = (int)(Math.random()*1)+sides;
+public int getValue(){
+
 	return this.value;
 }
 
 public void roll(){
 	this.value = (int)(Math.random()*1)+sides;
+
 }
 
 public String toString(){
-	return "Number of sides: " + this.sides + ", Value: " + this.value;
+	return ("Number of sides: " + this.sides + ", Value: " + this.value);
 }
 
 

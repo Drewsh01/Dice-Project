@@ -2,8 +2,9 @@ public class DiceRunner{
 	public static void main (String [] args){
 
 Die first = new Die();
+first.roll();
 
-System.out.println(first.getValue(8));
+System.out.print(first.toString());
 
 }
 }
