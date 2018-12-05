@@ -12,7 +12,7 @@ public Die(int sides){
 }
 
 public Die(){
-	this.value = (int)(Math.random()*1)+sides;
+	this.sides = 6;
 }
 
 public int getSides(int sides){
