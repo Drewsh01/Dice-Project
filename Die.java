@@ -9,10 +9,12 @@ private int value;
 
 public Die(int sides){
 	this.sides = sides;
+	this.value = (int)(Math.random()*1)+sides;
 }
 
 public Die(){
 	this.sides = 6;
+	this.value = (int)(Math.random()*1)+6;
 }
 
 public int getSides(int sides){
