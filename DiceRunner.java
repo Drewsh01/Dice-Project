@@ -30,7 +30,6 @@ while(first.getValue() != 1 && second.getValue() != 1){
 
 	}
 
-
 }
 
 }
