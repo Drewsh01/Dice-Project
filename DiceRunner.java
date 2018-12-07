@@ -10,7 +10,7 @@ while(first.getValue() != 1 && second.getValue() != 1){
 	first.roll();
 	second.roll();
 	x ++;
-	System.out.print("Die 1: " + first.getValue() + "Die 2: " + second.getValue());
+	System.out.println("Die 1: " + first.getValue() + "  Die 2: " + second.getValue());
 
 	if(first.getValue() == 1 && second.getValue() == 1){
 		System.out.println("You got snake eyes, after " + x + " attempts");
