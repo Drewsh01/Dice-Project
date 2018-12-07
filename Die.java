@@ -9,12 +9,12 @@ private int value;
 
 public Die(int sides){
 	this.sides = sides;
-	this.value = (int)(Math.random()*1)+sides;
+	this.value = (int)(Math.random()*sides)+1;
 }
 
 public Die(){
 	this.sides = 6;
-	this.value = (int)(Math.random()*1)+6;
+	this.value = (int)(Math.random()*6)+1;
 }
 
 public int getSides(int sides){
@@ -27,7 +27,7 @@ public int getValue(){
 }
 
 public void roll(){
-	this.value = (int)(Math.random()*1)+sides;
+	this.value = (int)(Math.random()*sides)+1;
 
 }
 
