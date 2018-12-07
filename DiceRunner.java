@@ -17,15 +17,23 @@ public class DiceRunner{
 			System.out.println("Dice 1: " + first.getValue() + " Dice 2: " + second.getValue());
 		}
 
+
+while(first.getValue() != 1 && second.getValue() != 1){
+	first.roll();
+	second.roll();
+	x ++;
+	System.out.println("Die 1: " + first.getValue() + "  Die 2: " + second.getValue());
+
 		if(first.getValue() == 1 && second.getValue() == 1){
 			win = 1;
-			System.out.print("Snake eyes was achieved after " + x + " attempts");
+			System.out.print("Snake eyes was achieved after " + x + " attempts\n");
 		}
+
 
 	}
 
 
-
+}
 
 
 
