@@ -2,6 +2,8 @@ public class DiceRunner{
 
 	public static void main (String [] args){
 
+	//Test 1
+
 	Die first = new Die(8);
 	Die second = new Die(8);
 	int x = 0;
@@ -21,6 +23,10 @@ public class DiceRunner{
 		}
 
 	}
+
+
+
+
 
 
 
