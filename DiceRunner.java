@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class DiceRunner{
 
 	public static void main (String [] args){
@@ -22,12 +24,29 @@ public class DiceRunner{
 		}
 
 
-	}
+		}
 
 
 
 
 	//Test 2
+	int j = 0;
+	DiceHolder one = new DiceHolder();
+	int w = 0;
+
+	while(w < 6){
+		j = (int)(Math.random()*18)+6;
+		one.addDie(new Die(j));
+		w ++;
+	}
+
+	System.out.println(one.toString());
+	one.shake();
+	System.out.println(one.toString());
+
+
+
+
 
 
 

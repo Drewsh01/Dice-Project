@@ -15,13 +15,13 @@ import java.util.*;
 	}
 
 		public void shake(){
-		for(int i = container.size(); i>= 0; i--)
+		for(int i = container.size()-1; i>= 0; i--)
 			container.get(i).roll();
 
 	}
 
 		public String toString(){
-			return "this contains "+ container;
+			return "The Dice in this container are: "+ container;
 
 	}
 }
