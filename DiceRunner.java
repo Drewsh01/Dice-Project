@@ -24,14 +24,14 @@ while(first.getValue() != 1 && second.getValue() != 1){
 
 		if(first.getValue() == 1 && second.getValue() == 1){
 			win = 1;
-			System.out.print("Snake eyes was achieved after " + x + " attempts");
+			System.out.print("Snake eyes was achieved after " + x + " attempts\n");
 		}
 
 
 	}
 
 
-
+}
 
 }
 }
